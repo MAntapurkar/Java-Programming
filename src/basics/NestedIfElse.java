@@ -1,3 +1,5 @@
+package basics;
+
 class Nerd {
 
     public void checkEligibility() {
