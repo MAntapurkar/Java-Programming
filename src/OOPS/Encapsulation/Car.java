@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Encapsulation;
 // Package name – used to group related classes together
 
 // Class is a blueprint for creating objects.

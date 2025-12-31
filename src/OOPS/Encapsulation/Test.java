@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Encapsulation;
 // Package name – groups related OOPS classes together
 
 public class Test {
