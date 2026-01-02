@@ -1,4 +1,4 @@
-package OOPS.Inheritance;
+package OOPS.Inheritance.Animal;
 
 public class Test {
     public static void main(String[] args) {
