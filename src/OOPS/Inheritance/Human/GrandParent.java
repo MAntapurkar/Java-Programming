@@ -1,12 +1,17 @@
 package OOPS.Inheritance.Human;
 
+/**
+ * GrandParent class is the top-most class in this hierarchy.
+ * It demonstrates the beginning of Multilevel Inheritance.
+ */
 public class GrandParent {
 
-
+    // Inheritable properties
     private String name;
     private int age;
     public boolean hasSuperpowers;
 
+    // Getters and Setters that will be available to all descendants
     public String getName() {
         return name;
     }
@@ -27,11 +32,13 @@ public class GrandParent {
         return hasSuperpowers;
     }
 
-
-
-
+    /**
+     * Default constructor. 
+     * When a Child object is created, this constructor will be 
+     * called first in the inheritance chain.
+     */
     public GrandParent(){
         hasSuperpowers = true;
-        System.out.println("Gp Called");
+        System.out.println("GrandParent (Level 1) Constructor Called");
     }
 }
